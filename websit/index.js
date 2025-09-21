@@ -3,6 +3,36 @@ const themeToggle = document.getElementById("theme-toggle");
 const themeIcon = document.getElementById("theme-icon");
 const navbar = document.getElementById("navbar");
 
+// Contact Form
+document
+  .getElementById("contact-form")
+  .addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    // Get form data
+    const formData = new FormData(this);
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const subject = formData.get("subject");
+    const message = formData.get("message");
+
+    // WhatsApp Number (بدون + أو مسافات)
+    const phone = "971544443103";
+
+    // Build WhatsApp message
+    const text = `Hello, You have a new message from the contact form:
+ Name: ${name}
+ Email: ${email}
+ Subject: ${subject}
+ Message: ${message}`;
+
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
+    window.open(url, "_blank");
+
+    // Reset form
+    this.reset();
+  });
+
 function updateTheme() {
   const isDark = document.documentElement.getAttribute("data-theme") === "dark";
   themeIcon.className = isDark ? "fas fa-sun text-lg" : "fas fa-moon text-lg";
