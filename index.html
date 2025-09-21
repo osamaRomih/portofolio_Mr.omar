@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omar Romih - Islamic Studies Teacher & Department Head</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav
+      class="fixed top-0 w-full bg-white/90 dark:bg-gray-900/90 backdrop-blur-md z-50 shadow-sm"
+      style="background-color: rgba(255, 255, 255, 0.9)"
+      id="navbar"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+          <div
+            class="font-serif font-bold text-2xl"
+            style="color: var(--primary-color)"
+          >
+            Omar Romih
+          </div>
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="#home"
+              class="nav-link hover:text-blue-600 transition-colors"
+              >Home</a
+            >
+            <a
+              href="#about"
+              class="nav-link hover:text-blue-600 transition-colors"
+              >About</a
+            >
+            <a
+              href="#experience"
+              class="nav-link hover:text-blue-600 transition-colors"
+              >Experience</a
+            >
+            <a
+              href="#skills"
+              class="nav-link hover:text-blue-600 transition-colors"
+              >Skills</a
+            >
+            <a
+              href="#certificates"
+              class="nav-link hover:text-blue-600 transition-colors"
+              >Certificates</a
+            >
+            <a
+              href="#contact"
+              class="nav-link hover:text-blue-600 transition-colors"
+              >Contact</a
+            >
+          </div>
+          <div class="flex items-center space-x-4">
+            <button
+              id="theme-toggle"
+              class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            >
+              <i class="fas fa-moon text-lg" id="theme-icon"></i>
+            </button>
+            <button
+              class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Login
+            </button>
+            <button class="md:hidden" id="mobile-menu-btn">
+              <i class="fas fa-bars text-xl"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="fixed inset-0 bg-black/50 z-40 hidden" id="mobile-menu-overlay">
+      <div
+        class="fixed right-0 top-0 h-full w-64 bg-white dark:bg-gray-900 shadow-lg transform translate-x-full transition-transform"
+        id="mobile-menu"
+      >
+        <div class="p-6">
+          <button class="absolute top-4 right-4" id="close-mobile-menu">
+            <i class="fas fa-times text-xl"></i>
+          </button>
+          <div class="mt-8 space-y-4">
+            <a
+              href="#home"
+              class="block py-2 hover:text-blue-600 transition-colors mobile-nav-link"
+              >Home</a
+            >
+            <a
+              href="#about"
+              class="block py-2 hover:text-blue-600 transition-colors mobile-nav-link"
+              >About</a
+            >
+            <a
+              href="#experience"
+              class="block py-2 hover:text-blue-600 transition-colors mobile-nav-link"
+              >Experience</a
+            >
+            <a
+              href="#skills"
+              class="block py-2 hover:text-blue-600 transition-colors mobile-nav-link"
+              >Skills</a
+            >
+            <a
+              href="#certificates"
+              class="block py-2 hover:text-blue-600 transition-colors mobile-nav-link"
+              >Certificates</a
+            >
+            <a
+              href="#contact"
+              class="block py-2 hover:text-blue-600 transition-colors mobile-nav-link"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="min-h-screen flex items-center justify-center relative overflow-hidden"
+    >
+      <div class="floating-pattern"></div>
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10"
+      >
+        <div class="animate-fade-in">
+          <h1
+            class="font-serif text-5xl md:text-7xl font-bold mb-6"
+            style="color: var(--text-primary)"
+          >
+            Omar Romih
+          </h1>
+          <p
+            class="text-xl md:text-2xl mb-8"
+            style="color: var(--text-secondary)"
+          >
+            Head of Islamic Department & Islamic Teacher
+          </p>
+          <p
+            class="text-lg mb-12 max-w-2xl mx-auto"
+            style="color: var(--text-secondary)"
+          >
+            Dedicated educator committed to academic excellence and spiritual
+            growth in Dubai, UAE
+          </p>
+          <div class="space-x-4">
+            <a
+              href="#contact"
+              class="gradient-bg text-white px-8 py-4 rounded-lg font-semibold hover:shadow-lg transition-all transform hover:scale-105"
+            >
+              Get In Touch
+            </a>
+            <a
+              href="#about"
+              class="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-all"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section
+      id="about"
+      class="py-20"
+      style="background-color: var(--bg-secondary)"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-in">
+          <h2
+            class="font-serif text-4xl md:text-5xl font-bold mb-6"
+            style="color: var(--text-primary)"
+          >
+            About Me
+          </h2>
+          <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="animate-slide-left">
+            <div
+              class="w-80 h-80 mx-auto bg-gradient-to-br from-blue-600 to-blue-800 rounded-full flex items-center justify-center"
+            >
+              <i class="fas fa-user-graduate text-8xl text-white"></i>
+            </div>
+          </div>
+          <div class="animate-slide-right">
+            <h3
+              class="font-serif text-3xl font-bold mb-6"
+              style="color: var(--text-primary)"
+            >
+              Professional Educator & Leader
+            </h3>
+            <p
+              class="text-lg mb-6 leading-relaxed"
+              style="color: var(--text-secondary)"
+            >
+              Dedicated, resourceful and goal-driven professional educator with
+              a solid commitment to academic and social growth of every child.
+              Currently serving as Head of Islamic Department in Dubai, bringing
+              innovative teaching methods and leadership excellence to Islamic
+              education.
+            </p>
+            <p
+              class="text-lg mb-8 leading-relaxed"
+              style="color: var(--text-secondary)"
+            >
+              With extensive experience across prestigious institutions, I focus
+              on creating engaging learning environments that foster both
+              academic achievement and spiritual development.
+            </p>
+            <div class="grid grid-cols-2 gap-6">
+              <div class="text-center">
+                <div class="text-3xl font-bold text-blue-600 mb-2">10+</div>
+                <div class="text-sm" style="color: var(--text-secondary)">
+                  Years Experience
+                </div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl font-bold text-blue-600 mb-2">500+</div>
+                <div class="text-sm" style="color: var(--text-secondary)">
+                  Students Taught
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-in">
+          <h2
+            class="font-serif text-4xl md:text-5xl font-bold mb-6"
+            style="color: var(--text-primary)"
+          >
+            Experience
+          </h2>
+          <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+        </div>
+        <div class="max-w-4xl mx-auto">
+          <div class="space-y-12">
+            <div
+              class="timeline-item animate-slide-left card-hover p-6 rounded-lg"
+              style="background-color: var(--bg-secondary)"
+            >
+              <div
+                class="flex flex-col md:flex-row md:items-center md:justify-between mb-4"
+              >
+                <h3
+                  class="font-serif text-2xl font-bold"
+                  style="color: var(--text-primary)"
+                >
+                  Head of Islamic Department
+                </h3>
+                <span class="text-blue-600 font-semibold"
+                  >Current Position</span
+                >
+              </div>
+              <p
+                class="text-lg font-semibold mb-2"
+                style="color: var(--text-secondary)"
+              >
+                Dubai, UAE
+              </p>
+              <p class="leading-relaxed" style="color: var(--text-secondary)">
+                Leading the Islamic Studies department with innovative
+                curriculum development and team management. Implementing modern
+                teaching methodologies while maintaining traditional Islamic
+                values.
+              </p>
+            </div>
+
+            <div
+              class="timeline-item animate-slide-right card-hover p-6 rounded-lg"
+              style="background-color: var(--bg-secondary)"
+            >
+              <div
+                class="flex flex-col md:flex-row md:items-center md:justify-between mb-4"
+              >
+                <h3
+                  class="font-serif text-2xl font-bold"
+                  style="color: var(--text-primary)"
+                >
+                  Islamic Studies Teacher
+                </h3>
+                <span class="text-blue-600 font-semibold"
+                  >Lycee Francais Jean Mermoz</span
+                >
+              </div>
+              <p
+                class="text-lg font-semibold mb-2"
+                style="color: var(--text-secondary)"
+              >
+                Dubai, UAE
+              </p>
+              <p class="leading-relaxed" style="color: var(--text-secondary)">
+                Delivered comprehensive Islamic education in a multicultural
+                environment, adapting teaching methods to diverse student
+                backgrounds and learning styles.
+              </p>
+            </div>
+
+            <div
+              class="timeline-item animate-slide-left card-hover p-6 rounded-lg"
+              style="background-color: var(--bg-secondary)"
+            >
+              <div
+                class="flex flex-col md:flex-row md:items-center md:justify-between mb-4"
+              >
+                <h3
+                  class="font-serif text-2xl font-bold"
+                  style="color: var(--text-primary)"
+                >
+                  Islamic Studies Teacher
+                </h3>
+                <span class="text-blue-600 font-semibold"
+                  >Winchester School</span
+                >
+              </div>
+              <p
+                class="text-lg font-semibold mb-2"
+                style="color: var(--text-secondary)"
+              >
+                Dubai, UAE
+              </p>
+              <p class="leading-relaxed" style="color: var(--text-secondary)">
+                Developed engaging lesson plans and assessment strategies,
+                contributing to improved student performance and engagement in
+                Islamic Studies.
+              </p>
+            </div>
+
+            <div
+              class="timeline-item animate-slide-right card-hover p-6 rounded-lg"
+              style="background-color: var(--bg-secondary)"
+            >
+              <div
+                class="flex flex-col md:flex-row md:items-center md:justify-between mb-4"
+              >
+                <h3
+                  class="font-serif text-2xl font-bold"
+                  style="color: var(--text-primary)"
+                >
+                  Islamic Studies Teacher
+                </h3>
+                <span class="text-blue-600 font-semibold"
+                  >AlSayeda Aisha School</span
+                >
+              </div>
+              <p
+                class="text-lg font-semibold mb-2"
+                style="color: var(--text-secondary)"
+              >
+                Dubai, UAE
+              </p>
+              <p class="leading-relaxed" style="color: var(--text-secondary)">
+                Established foundational teaching experience, focusing on
+                creating inclusive learning environments and building strong
+                student-teacher relationships.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section
+      id="skills"
+      class="py-20"
+      style="background-color: var(--bg-secondary)"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-in">
+          <h2
+            class="font-serif text-4xl md:text-5xl font-bold mb-6"
+            style="color: var(--text-primary)"
+          >
+            Skills & Expertise
+          </h2>
+          <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-12">
+          <div class="animate-slide-left">
+            <h3
+              class="font-serif text-2xl font-bold mb-8"
+              style="color: var(--text-primary)"
+            >
+              Professional Skills
+            </h3>
+            <div class="space-y-6">
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-semibold" style="color: var(--text-primary)"
+                    >Leadership</span
+                  >
+                  <span class="text-blue-600">95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="95"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-semibold" style="color: var(--text-primary)"
+                    >Time Management</span
+                  >
+                  <span class="text-blue-600">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="90"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-semibold" style="color: var(--text-primary)"
+                    >Innovation</span
+                  >
+                  <span class="text-blue-600">88%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="88"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-semibold" style="color: var(--text-primary)"
+                    >Teamwork</span
+                  >
+                  <span class="text-blue-600">92%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="92"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="animate-slide-right">
+            <h3
+              class="font-serif text-2xl font-bold mb-8"
+              style="color: var(--text-primary)"
+            >
+              Core Competencies
+            </h3>
+            <div class="grid grid-cols-2 gap-4">
+              <div
+                class="card-hover p-4 rounded-lg text-center"
+                style="background-color: var(--bg-primary)"
+              >
+                <i
+                  class="fas fa-chalkboard-teacher text-3xl text-blue-600 mb-3"
+                ></i>
+                <h4
+                  class="font-semibold mb-2"
+                  style="color: var(--text-primary)"
+                >
+                  Curriculum Development
+                </h4>
+              </div>
+              <div
+                class="card-hover p-4 rounded-lg text-center"
+                style="background-color: var(--bg-primary)"
+              >
+                <i class="fas fa-users text-3xl text-blue-600 mb-3"></i>
+                <h4
+                  class="font-semibold mb-2"
+                  style="color: var(--text-primary)"
+                >
+                  Student Engagement
+                </h4>
+              </div>
+              <div
+                class="card-hover p-4 rounded-lg text-center"
+                style="background-color: var(--bg-primary)"
+              >
+                <i class="fas fa-laptop text-3xl text-blue-600 mb-3"></i>
+                <h4
+                  class="font-semibold mb-2"
+                  style="color: var(--text-primary)"
+                >
+                  Digital Learning
+                </h4>
+              </div>
+              <div
+                class="card-hover p-4 rounded-lg text-center"
+                style="background-color: var(--bg-primary)"
+              >
+                <i class="fas fa-chart-line text-3xl text-blue-600 mb-3"></i>
+                <h4
+                  class="font-semibold mb-2"
+                  style="color: var(--text-primary)"
+                >
+                  Performance Analysis
+                </h4>
+              </div>
+              <div
+                class="card-hover p-4 rounded-lg text-center"
+                style="background-color: var(--bg-primary)"
+              >
+                <i class="fas fa-heart text-3xl text-blue-600 mb-3"></i>
+                <h4
+                  class="font-semibold mb-2"
+                  style="color: var(--text-primary)"
+                >
+                  Mentoring
+                </h4>
+              </div>
+              <div
+                class="card-hover p-4 rounded-lg text-center"
+                style="background-color: var(--bg-primary)"
+              >
+                <i class="fas fa-globe text-3xl text-blue-600 mb-3"></i>
+                <h4
+                  class="font-semibold mb-2"
+                  style="color: var(--text-primary)"
+                >
+                  Cultural Awareness
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-in">
+          <h2
+            class="font-serif text-4xl md:text-5xl font-bold mb-6"
+            style="color: var(--text-primary)"
+          >
+            Certificates & Awards
+          </h2>
+          <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            class="card-hover p-6 rounded-lg text-center animate-fade-in"
+            style="background-color: var(--bg-secondary)"
+          >
+            <i class="fas fa-award text-4xl text-yellow-500 mb-4"></i>
+            <h3
+              class="font-serif text-xl font-bold mb-3"
+              style="color: var(--text-primary)"
+            >
+              Microsoft Innovative Educator
+            </h3>
+            <p style="color: var(--text-secondary)">
+              Recognized for innovative use of technology in education
+            </p>
+          </div>
+          <div
+            class="card-hover p-6 rounded-lg text-center animate-fade-in"
+            style="background-color: var(--bg-secondary)"
+          >
+            <i class="fas fa-certificate text-4xl text-blue-600 mb-4"></i>
+            <h3
+              class="font-serif text-xl font-bold mb-3"
+              style="color: var(--text-primary)"
+            >
+              MOE Teaching License
+            </h3>
+            <p style="color: var(--text-secondary)">
+              Official Ministry of Education teaching certification
+            </p>
+          </div>
+          <div
+            class="card-hover p-6 rounded-lg text-center animate-fade-in"
+            style="background-color: var(--bg-secondary)"
+          >
+            <i class="fas fa-star text-4xl text-yellow-500 mb-4"></i>
+            <h3
+              class="font-serif text-xl font-bold mb-3"
+              style="color: var(--text-primary)"
+            >
+              Above and Beyond Teacher Award
+            </h3>
+            <p style="color: var(--text-secondary)">
+              Excellence in teaching and student development
+            </p>
+          </div>
+          <div
+            class="card-hover p-6 rounded-lg text-center animate-fade-in"
+            style="background-color: var(--bg-secondary)"
+          >
+            <i class="fas fa-graduation-cap text-4xl text-green-600 mb-4"></i>
+            <h3
+              class="font-serif text-xl font-bold mb-3"
+              style="color: var(--text-primary)"
+            >
+              Islamic Studies Certification
+            </h3>
+            <p style="color: var(--text-secondary)">
+              Advanced certification in Islamic education
+            </p>
+          </div>
+          <div
+            class="card-hover p-6 rounded-lg text-center animate-fade-in"
+            style="background-color: var(--bg-secondary)"
+          >
+            <i class="fas fa-users-cog text-4xl text-purple-600 mb-4"></i>
+            <h3
+              class="font-serif text-xl font-bold mb-3"
+              style="color: var(--text-primary)"
+            >
+              Leadership Development
+            </h3>
+            <p style="color: var(--text-secondary)">
+              Professional development in educational leadership
+            </p>
+          </div>
+          <div
+            class="card-hover p-6 rounded-lg text-center animate-fade-in"
+            style="background-color: var(--bg-secondary)"
+          >
+            <i class="fas fa-language text-4xl text-red-600 mb-4"></i>
+            <h3
+              class="font-serif text-xl font-bold mb-3"
+              style="color: var(--text-primary)"
+            >
+              Multilingual Education
+            </h3>
+            <p style="color: var(--text-secondary)">
+              Specialized training in multilingual teaching methods
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section
+      id="contact"
+      class="py-20"
+      style="background-color: var(--bg-secondary)"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-in">
+          <h2
+            class="font-serif text-4xl md:text-5xl font-bold mb-6"
+            style="color: var(--text-primary)"
+          >
+            Get In Touch
+          </h2>
+          <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+          <p
+            class="text-lg max-w-2xl mx-auto"
+            style="color: var(--text-secondary)"
+          >
+            Ready to discuss educational opportunities or collaborate on
+            innovative teaching methods? I'd love to hear from you.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-12">
+          <div class="animate-slide-left">
+            <h3
+              class="font-serif text-2xl font-bold mb-8"
+              style="color: var(--text-primary)"
+            >
+              Contact Information
+            </h3>
+            <div class="space-y-6">
+              <div class="flex items-center space-x-4">
+                <div
+                  class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center"
+                >
+                  <i class="fas fa-envelope text-white"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold" style="color: var(--text-primary)">
+                    Email
+                  </h4>
+                  <a
+                    href="mailto:omarromih28@gmail.com"
+                    class="text-blue-600 hover:underline"
+                    >omarromih28@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="flex items-center space-x-4">
+                <div
+                  class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center"
+                >
+                  <i class="fab fa-linkedin text-white"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold" style="color: var(--text-primary)">
+                    LinkedIn
+                  </h4>
+                  <a
+                    href="https://linkedin.com/in/omar-romih-74692217a"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-600 hover:underline"
+                    >linkedin.com/in/omar-romih-74692217a</a
+                  >
+                </div>
+              </div>
+              <div class="flex items-center space-x-4">
+                <div
+                  class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center"
+                >
+                  <i class="fas fa-map-marker-alt text-white"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold" style="color: var(--text-primary)">
+                    Location
+                  </h4>
+                  <p style="color: var(--text-secondary)">Dubai, UAE</p>
+                </div>
+              </div>
+              <div class="flex items-center space-x-4">
+                <div
+                  class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center"
+                >
+                  <i class="fab fa-whatsapp text-white"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold" style="color: var(--text-primary)">
+                    WhatsApp
+                  </h4>
+                  <a
+                    href="https://wa.me/971544443103"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-green-600 hover:underline"
+                    >+971 54 444 3103</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="animate-slide-right">
+            <form class="space-y-6" id="contact-form">
+              <div>
+                <label
+                  class="block text-sm font-semibold mb-2"
+                  style="color: var(--text-primary)"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
+                  style="
+                    background-color: var(--bg-primary);
+                    color: var(--text-primary);
+                  "
+                  required
+                />
+              </div>
+              <div>
+                <label
+                  class="block text-sm font-semibold mb-2"
+                  style="color: var(--text-primary)"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
+                  style="
+                    background-color: var(--bg-primary);
+                    color: var(--text-primary);
+                  "
+                  required
+                />
+              </div>
+              <div>
+                <label
+                  class="block text-sm font-semibold mb-2"
+                  style="color: var(--text-primary)"
+                  >Subject</label
+                >
+                <input
+                  type="text"
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
+                  style="
+                    background-color: var(--bg-primary);
+                    color: var(--text-primary);
+                  "
+                  required
+                />
+              </div>
+              <div>
+                <label
+                  class="block text-sm font-semibold mb-2"
+                  style="color: var(--text-primary)"
+                  >Message</label
+                >
+                <textarea
+                  rows="5"
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
+                  style="
+                    background-color: var(--bg-primary);
+                    color: var(--text-primary);
+                  "
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full gradient-bg text-white py-3 rounded-lg font-semibold hover:shadow-lg transition-all transform hover:scale-105"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 gradient-bg text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h3 class="font-serif text-2xl font-bold mb-2">Omar Romih</h3>
+          <p class="mb-4">Head of Islamic Department & Islamic Teacher</p>
+          <div class="flex justify-center space-x-6 mb-6">
+            <a
+              href="mailto:omarromih28@gmail.com"
+              class="hover:text-yellow-300 transition-colors"
+            >
+              <i class="fas fa-envelope text-xl"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/omar-romih-74692217a"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-yellow-300 transition-colors"
+            >
+              <i class="fab fa-linkedin text-xl"></i>
+            </a>
+            <a
+              href="https://wa.me/971544443103"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-yellow-300 transition-colors"
+            >
+              <i class="fab fa-whatsapp text-xl"></i>
+            </a>
+          </div>
+          <p class="text-sm opacity-80">
+            © 2024 Omar Romih. All rights reserved. | Dubai, UAE
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a
+      href="https://wa.me/971544443103"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="whatsapp-float"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </body>
+
+  <script src="index.js"></script>
+</html>
