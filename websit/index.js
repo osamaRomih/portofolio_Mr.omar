@@ -167,7 +167,9 @@ document
     window.open(mailtoLink, "_blank");
 
     // Show success message
-    alert("Thank you for your message! Your email client should open now.");
+    alert(
+      "✅ Thank you! Your message has been sent. I’ll get back to you soon."
+    );
 
     // Reset form
     this.reset();
