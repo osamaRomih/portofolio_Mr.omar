@@ -154,7 +154,7 @@ body {
   left: 5px;
   top: 1.5rem;
   width: 2px;
-  height: calc(100% - 1rem);
+  height: calc(90% - 1rem);
   background-color: var(--primary-color);
   opacity: 0.3;
 }
