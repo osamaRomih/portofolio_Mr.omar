@@ -3,6 +3,18 @@ const themeToggle = document.getElementById("theme-toggle");
 const themeIcon = document.getElementById("theme-icon");
 const navbar = document.getElementById("navbar");
 
+// const langSwitch = document.getElementById("langSwitch");
+
+// langSwitch.addEventListener("change", function () {
+//   if (this.checked) {
+//     document.body.dir = "rtl";
+//     console.log("🌙 اللغة العربية مفعّلة");
+//   } else {
+//     document.body.dir = "ltr";
+//     console.log("☀️ اللغة الإنجليزية مفعّلة");
+//   }
+// });
+
 // Contact Form
 document
   .getElementById("contact-form")
@@ -21,10 +33,10 @@ document
 
     // Build WhatsApp message
     const text = `Hello, You have a new message from the contact form:
- Name: ${name}
- Email: ${email}
- Subject: ${subject}
- Message: ${message}`;
+      Name: ${name}
+      Email: ${email}
+      Subject: ${subject}
+      Message: ${message}`;
 
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank");

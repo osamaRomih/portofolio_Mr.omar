@@ -78,12 +78,26 @@
             >
           </div>
           <div class="flex items-center space-x-4">
+            <!-- Theme Toggle -->
             <button
               id="theme-toggle"
               class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
             >
               <i class="fas fa-moon text-lg" id="theme-icon"></i>
             </button>
+
+            <!-- Language Toggle -->
+
+            <!-- <div class="lang-toggle">
+              <input type="checkbox" id="langSwitch" hidden />
+              <label for="langSwitch" class="switch">
+                <span class="switch-text en">EN</span>
+                <span class="switch-slider"></span>
+                <span class="switch-text ar">AR</span>
+              </label>
+            </div> -->
+
+            <!-- Login -->
             <button
               class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
             >
@@ -214,8 +228,12 @@
               style="margin-bottom: 50px"
               class="w-80 h-80 mx-auto bg-gradient-to-br from-blue-600 to-blue-800 rounded-full flex items-center justify-center"
             >
-              <img src="./assets/omar.jpg" alt="omar" loading="lazy" />
-              <!-- <i class="fas fa-user-graduate text-8xl text-white"></i> -->
+              <img
+                src="./assets/omar.jpg"
+                alt="omar"
+                style="border-radius: 3px"
+                loading="lazy"
+              />
             </div>
           </div>
           <div class="animate-slide-right">
@@ -814,6 +832,122 @@
       </div>
     </section>
 
+    <!-- Trainings Section -->
+    <section id="trainings" class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center mb-16 animate-fade-in">
+          <h2
+            class="font-serif text-4xl md:text-5xl font-bold mb-4"
+            style="color: var(--text-primary)"
+          >
+            Professional Trainings & Workshops
+          </h2>
+          <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+          <p class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+            A collection of my professional development courses and workshops
+            focused on innovation, pedagogy, and effective teaching strategies.
+          </p>
+        </div>
+
+        <!-- Training Cards -->
+        <div class="space-y-12">
+          <!-- Training 1 -->
+          <div
+            class="flex flex-col md:flex-row items-center gap-8 p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 animate-slide-left"
+            style="background-color: var(--bg-secondary)"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80"
+              alt="Critical Thinking Workshop"
+              class="w-full md:w-1/3 h-56 object-cover rounded-xl"
+            />
+            <div class="flex-1">
+              <h3
+                class="font-serif text-2xl font-bold mb-3"
+                style="color: var(--text-primary)"
+              >
+                Strategies to Enhance Critical Thinking Through Higher-Order
+                Questions
+              </h3>
+              <p class="leading-relaxed" style="color: var(--text-secondary)">
+                This training highlights the importance of developing students’
+                critical thinking skills in Islamic Education through the use of
+                higher-order questions in Bloom’s taxonomy. Teachers explore
+                practical models for designing questions that stimulate
+                analysis, interpretation, and inference rather than relying on
+                memorization. The course also includes applied activities that
+                help teachers transform lessons into opportunities for deep
+                thinking and meaningful classroom dialogue.
+              </p>
+            </div>
+          </div>
+
+          <!-- Training 2 -->
+          <div
+            class="flex flex-col md:flex-row items-center gap-8 p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 animate-slide-right"
+            style="background-color: var(--bg-secondary)"
+          >
+            <img
+              src="./assets/learn Quran with Tajweed.jpg"
+              alt="Quran Reading Empowerment"
+              class="w-full md:w-1/3 h-56 object-cover rounded-xl"
+            />
+            <div class="flex-1">
+              <h3
+                class="font-serif text-2xl font-bold mb-3"
+                style="color: var(--text-primary)"
+              >
+                From Rote Learning to Empowerment in Quran Reading
+              </h3>
+              <p class="leading-relaxed" style="color: var(--text-secondary)">
+                This workshop focuses on developing teachers’ abilities to
+                improve students’ Quran recitation by shifting from traditional
+                rote learning to empowerment and active participation
+                strategies. Teachers learn modern approaches for correcting
+                recitation, strengthening Tajweed skills, and motivating
+                students for self-directed and continuous learning. The course
+                also provides practical examples and tools to make Quran
+                learning more effective and enjoyable, especially for non-Arabic
+                speakers.
+              </p>
+            </div>
+          </div>
+
+          <!-- Training 3 -->
+          <div
+            class="flex flex-col md:flex-row items-center gap-8 p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 animate-slide-up"
+            style="background-color: var(--bg-secondary)"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238?auto=format&fit=crop&w=600&q=80"
+              alt="Best Practices Discussion"
+              class="w-full md:w-1/3 h-56 object-cover rounded-xl"
+            />
+            <div class="flex-1">
+              <h3
+                class="font-serif text-2xl font-bold mb-3"
+                style="color: var(--text-primary)"
+              >
+                Discussion Session: Exchanging Best Practices in Teaching
+                Islamic and Arabic Education
+              </h3>
+              <p class="leading-relaxed" style="color: var(--text-secondary)">
+                This discussion session aims to promote the exchange of
+                experiences and best practices among Islamic and Arabic
+                Education teachers across schools, contributing to the
+                enhancement of teaching methods and learning outcomes.
+                Participants share their successful strategies for developing
+                students’ linguistic and religious skills, focusing on
+                integrating values, fostering higher-order thinking, and
+                effectively using technology in education.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Certificates Section -->
     <section id="certificates" class="py-20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1046,7 +1180,7 @@
                   <a
                     href="https://mail.google.com/mail/?view=cm&fs=1&to=omarromih28@gmail.com"
                     target="_blank"
-                    class="text-blue-600 hover:underline"
+                    class="hover:underline"
                     >omarromih28@gmail.com</a
                   >
                 </div>
@@ -1065,7 +1199,7 @@
                     href="https://linkedin.com/in/omar-romih-74692217a"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="text-blue-600 hover:underline"
+                    class="hover:underline"
                     >linkedin.com/in/omar-romih-74692217a</a
                   >
                 </div>
